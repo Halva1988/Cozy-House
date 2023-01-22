@@ -1,2 +1,16 @@
 .button {
+  padding: 15px 45px;
+  width: 207px;
+  height: 52px;
+  background-color: $color-primary;
+  border: 2px solid $color-primary;
+  border-radius: 100px;
+  @extend %font-family-Georgia;
+  font-size: 17px;
+  cursor: pointer;
+  @extend %transition;
+
+  &:hover {
+    background-color: $color-primary-light;
+  }
 }

@@ -8,6 +8,23 @@ a:hover {text-decoration: none;}
 	box-sizing: border-box;
 }
 
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+	@extend %font-family-Georgia;
+}
+
+p {
+	@extend %font-family-Arial;
+}
+
 ul {
 	list-style-type: none;
 }
