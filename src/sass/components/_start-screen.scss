@@ -6,48 +6,40 @@
 	background-repeat: no-repeat;
 
 	&__title-start {
-        font-size: 44px;
-        line-height: 57px;
-        letter-spacing: 0em;
-        color: $color-light-xl;
-        padding: 0 130px 42px 0;
-        @extend %font-family-Georgia;
-	}
-
-	&__navigation {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		gap: 35px;
+		font-size: 44px;
+		line-height: 57px;
+		letter-spacing: 0em;
+		color: $color-light-xl;
+		padding: 0 130px 42px 0;
+		@extend %font-family-Georgia;
 	}
 
 	&__content {
-        display: flex;
-        justify-content: space-between;
-        padding-top: 60px;
+		display: flex;
+		justify-content: space-between;
+		padding-top: 60px;
 	}
 
 	&__description {
-        margin: 163px 42px 243px 0;
-        height: 322px;
-        width: 460px;
+		margin: 163px 42px 243px 0;
+		height: 322px;
+		width: 460px;
 	}
 
 	&__paragraph-start {
-        font-size: 15px;
-        line-height: 24px;
-        letter-spacing: 0px;
-        color: $color-dark-s;
-        padding-bottom: 42px;
-        @extend %font-family-Arial;
+		font-size: 15px;
+		line-height: 24px;
+		letter-spacing: 0px;
+		color: $color-dark-s;
+		padding-bottom: 42px;
+		@extend %font-family-Arial;
 	}
 
 	&__button {
 	}
 
-	&__puppy img{
-        height: 100%;
-        max-width: 100%;
+	&__puppy img {
+		height: 100%;
+		max-width: 100%;
 	}
 }
-

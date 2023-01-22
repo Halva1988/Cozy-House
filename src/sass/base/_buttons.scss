@@ -14,3 +14,16 @@
     background-color: $color-primary-light;
   }
 }
+
+.arrow {
+  height: 52px;
+  width: 52px;
+  border-radius: 100px;
+  padding: 23px 19px 23px 19px;
+  border: 2px solid $color-primary;
+  @extend %transition;
+
+  &:hover {
+    background-color: $color-primary-light;
+  }
+}
