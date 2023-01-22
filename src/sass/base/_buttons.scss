@@ -16,12 +16,15 @@
 }
 
 .arrow {
-  height: 52px;
-  width: 52px;
+  position: absolute;
+  height: 45px;
+  width: 45px;
+  top: 412px;
   border-radius: 100px;
-  padding: 23px 19px 23px 19px;
+  padding: 15px 19px;
   border: 2px solid $color-primary;
   @extend %transition;
+  cursor: pointer;
 
   &:hover {
     background-color: $color-primary-light;

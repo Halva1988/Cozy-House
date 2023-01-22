@@ -3,6 +3,7 @@
 
 	&__wrapper {
     padding: 80px 0px 100px;
+    position: relative;
 	}
 
 	&__title {
@@ -72,11 +73,19 @@
 }
 .button {
 }
-.swiper-button-prev {
-}
-.swiper-button-next {
+.arrow-left {
+  background-image: url('../../assets/icons/Arrow-left.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  left: -53px;
 }
 
-.arrow-left {
-  background-image: url('../../assets/icons/Arrow-left.png') center;
+.arrow-right {
+  z-index: 9999;
+  background-image: url('../../assets/icons/Arrow-right.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  left: 1207px;
+}
+.swiper-button-next {
 }
