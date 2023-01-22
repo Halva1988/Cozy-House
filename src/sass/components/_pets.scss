@@ -1,91 +1,83 @@
 .pets {
-  background-color: $color-background;
+	background-color: $color-background;
 
 	&__wrapper {
-    padding: 80px 0px 100px;
-    position: relative;
+		padding: 80px 0px 100px;
+		position: relative;
 	}
 
 	&__title {
-    text-align: center;
-    padding: 0px 350px 60px;
-    font-size: 35px;
-    line-height: 45px;
-    letter-spacing: 0.06em;
-    color: $color-dark-i;
+		text-align: center;
+		padding: 0px 350px 60px;
+		font-size: 35px;
+		line-height: 45px;
+		letter-spacing: 0.06em;
+		color: $color-dark-i;
 	}
 
 	&__card {
-    display: flex;
-    flex-direction: column;
-    max-width: 300px;
-    border-radius: 9px 9px 0px 0px;
-    background-color: $color-light-s;
-    @extend %transition;
+		display: flex;
+		flex-direction: column;
+		max-width: 300px;
+		border-radius: 9px 9px 0px 0px;
+		background-color: $color-light-s;
+		@extend %transition;
 
-    &:hover {
-      background-color: $color-light-xl;
-      cursor: pointer;
-    }
+		&:hover {
+			background-color: $color-light-xl;
+			cursor: pointer;
+		}
 	}
 
 	&__img {
-    object-fit: contain;
-    margin-bottom: 30px;
+		object-fit: contain;
+		margin-bottom: 30px;
 	}
 
 	&__name {
-    font-size: 20px;
-    line-height: 23px;
-    letter-spacing: 0.06em;
-    text-align: center;
-    color: $color-dark-i;
-    margin-bottom: 30px;
+		font-size: 20px;
+		line-height: 23px;
+		letter-spacing: 0.06em;
+		text-align: center;
+		color: $color-dark-i;
+		margin-bottom: 30px;
 	}
 
 	&__button {
-    align-self: center;
-    margin-bottom: 30px;
-    background-color: $color-light-s;
+		align-self: center;
+		margin-bottom: 30px;
+		background-color: $color-light-s;
 	}
 
-  &__primary-button {
-    height: 52px;
-    width: 261px;
-    padding: 15px 45px 15px 45px;
-    line-height: 22px;
-    letter-spacing: 0.06em;
-    color: $color-dark-3xl;
-    margin-top: 60px;
-    margin-left: 470px;
-  }
+	&__primary-button {
+		height: 52px;
+		width: 261px;
+		padding: 15px 45px 15px 45px;
+		line-height: 22px;
+		letter-spacing: 0.06em;
+		color: $color-dark-3xl;
+		margin-top: 60px;
+		margin-left: 470px;
+	}
 }
-.wrapper {
-}
-.swiper {
-}
+
 .swiper-wrapper {
-  display: flex;
-  gap: 100px;
-  padding: 0px 50px;
+	display: flex;
+	gap: 100px;
+	padding: 0px 50px;
 }
-.swiper-slide {
-}
-.button {
-}
+
 .arrow-left {
-  background-image: url('../../assets/icons/Arrow-left.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  left: -53px;
+	background-image: url("../../assets/icons/Arrow-left.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	left: -53px;
 }
 
 .arrow-right {
-  z-index: 9999;
-  background-image: url('../../assets/icons/Arrow-right.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  left: 1207px;
-}
-.swiper-button-next {
+	z-index: 9999;
+	background-image: url("../../assets/icons/Arrow-right.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	left: 1207px;
 }
