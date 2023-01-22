@@ -1,0 +1,28 @@
+.start-screen {
+
+	&__header {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__logo {
+	}
+
+	&__title {
+	}
+
+	&__subtitle {
+	}
+
+	&__navigation {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 35px;
+	}
+
+	&__link {
+		&_active {
+		}
+	}
+}
