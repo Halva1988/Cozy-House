@@ -14,7 +14,7 @@
 	&__card {
 		display: flex;
 		flex-direction: column;
-		max-width: 300px;
+		width: 270px !important;
 		border-radius: 9px 9px 0px 0px;
 		background-color: $color-light-s;
 		@extend %transition;
@@ -46,28 +46,32 @@
 	}
 
 	&__primary-button {
+		display: block;
+		margin: 60px auto;
 		height: 52px;
 		width: 261px;
 		padding: 15px 45px 15px 45px;
 		line-height: 22px;
 		letter-spacing: 0.06em;
 		color: $color-dark-3xl;
-		margin-top: 60px;
-		margin-left: 470px;
 	}
+}
+
+.swiper {
+	width: 1120px;
 }
 
 .swiper-wrapper {
 	display: flex;
-	gap: 100px;
-	padding: 0px 50px;
+	gap: 103px;
+	padding: 0px 53px;
 }
 
 .arrow-left {
 	background-image: url("../../assets/icons/Arrow-left.png");
 	background-position: center;
 	background-repeat: no-repeat;
-	left: -53px;
+	// left: -53px;
 }
 
 .arrow-right {
@@ -75,5 +79,10 @@
 	background-image: url("../../assets/icons/Arrow-right.png");
 	background-position: center;
 	background-repeat: no-repeat;
-	left: 1207px;
+	// right: -53px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+	color: transparent;
 }

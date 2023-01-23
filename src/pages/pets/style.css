@@ -1,0 +1,123 @@
+.button, h2, h3, h4, h5 {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+}
+
+p {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+}
+
+.arrow, .button {
+  transition: all 0.3s ease-out;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h3 {
+  color: #545454;
+  font-size: 35px;
+  line-height: 45px;
+  letter-spacing: 0.06em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.button {
+  padding: 15px 45px;
+  width: 207px;
+  height: 52px;
+  background-color: #F1CDB3;
+  border: 2px solid #F1CDB3;
+  border-radius: 100px;
+  font-size: 17px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #FDDCC4;
+  border: 2px solid #FDDCC4;
+}
+
+.arrow {
+  position: absolute;
+  height: 53px;
+  width: 53px;
+  top: 412px;
+  border-radius: 100px;
+  padding: 23px 19px;
+  border: 2px solid #F1CDB3;
+  cursor: pointer;
+}
+.arrow:hover {
+  background-color: #FDDCC4;
+  border: 2px solid #FDDCC4;
+}
+
+.footer {
+  background: url("../../assets/img/bg/footer-gradient-background.png"), radial-gradient(110.67% 538.64% at 5.73% 50%, #513d2f 0%, #1a1a1c 100%), #211f20;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 40px 0px;
+}
+.footer__block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 16px 150px 60px 0px;
+}
+.footer__title {
+  font-size: 35px;
+  line-height: 45px;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+}
+.footer__string {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  align-items: center;
+}
+.footer__boston-link {
+  text-align: right;
+}
+
+.footer a {
+  color: #F1CDB3;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -15,16 +15,16 @@
 <body>
   <section class="start-screen">
     <div class="wrapper">
-      <header class="start-screen__header">
-        <div class="start-screen__logo">
-          <div class="start-screen__title">Cozy House</div>
-          <div class="start-screen__subtitle">Shelter for pets in Boston</div>
+      <header class="header">
+        <div class="header__logo">
+          <div class="header__title">Cozy House</div>
+          <div class="header__subtitle">Shelter for pets in Boston</div>
         </div>
-        <ul class="start-screen__navigation">
-          <li><a href="" class="start-screen__link start-screen__link_active">About the shelter</a></li>
-          <li><a href="" class="start-screen__link">Our pets</a></li>
-          <li><a href="#help" class="start-screen__link">Help the shelter</a></li>
-          <li><a href="#contacts" class="start-screen__link">Contacts</a></li>
+        <ul class="header__navigation">
+          <li><a href="" class="header__link header__link_active">About the shelter</a></li>
+          <li><a href="../pets/pets.html" class="header__link">Our pets</a></li>
+          <li><a href="#help" class="header__link">Help the shelter</a></li>
+          <li><a href="#contacts" class="header__link">Contacts</a></li>
         </ul>
       </header>
       <div class="start-screen__content">
@@ -95,8 +95,8 @@
             <button class="pets__button button">Learn more</button>
           </div>
           <div class="swiper-slide pets__card">
-            <img src="../../assets/img/pets-scarlet.png" alt="Scarlett" class="pets__img">
-            <h4 class="pets__name">Scarlett</h4>
+            <img src="../../assets/img/pets-scarlet.png" alt="Scarlet" class="pets__img">
+            <h4 class="pets__name">Scarlet</h4>
             <button class="pets__button button">Learn more</button>
           </div>
           <div class="swiper-slide pets__card">
@@ -106,9 +106,9 @@
           </div>
         </div>
       </div>
-      <div class="arrow arrow-left"></div>
-      <div class="arrow arrow-right"></div>
-      <button class="pets__primary-button button">Get to know the rest</button>
+      <div class="arrow arrow-left swiper-button-prev"></div>
+      <div class="arrow arrow-right swiper-button-next"></div>
+      <a href="../pets/pets.html"><button class="pets__primary-button button">Get to know the rest</button></a>
     </div>
   </section>
   <section class="help" id="help">

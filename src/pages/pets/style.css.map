@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "sourceRoot": "",
+    "sources": [
+        "../../sass/abstract/_placeholders.scss",
+        "../../sass/base/_base.scss",
+        "../../sass/abstract/_constants.scss",
+        "../../sass/base/_buttons.scss",
+        "../../sass/layouts/_footer.scss"
+    ],
+    "names": [],
+    "mappings": "AAAA;EACI;EACA;EACA;;;AAGJ;EACI;EACA;EACA;;;AAGJ;EACI;;;ACbJ;EAAmB;;;AACnB;EAAc;;;AACd;EAAS;;;AAET;EACC;EACA;EACA;;;AAGD;EACI;;;AAGJ;EACI;EACA;;;AAOJ;EACC,OCjBc;EDkBd;EACA;EACA;;;AAOD;EACC;;;AEnCD;EACE;EACA;EACA;EACA,kBDHc;ECId;EACA;EAEA;EACA;;AAGA;EACE,kBDXkB;ECYlB;;;AAIJ;EACE;EACA;EACA;EACA;EACA;EACA;EACA;EAEA;;AAEA;EACE,kBD5BkB;EC6BlB;;;AC/BJ;EACC;EAGA;EACA;;AAEA;EACG;EACA;EACA;;AAGH;EACG;EACA;EACA;EACA;;AAGF;EACE;EACA;EACA;EACA,OFrBa;;AEwBf;EACE;EACA;EACA;EACA;EACA;EACA;;AAGH;EACG;;;AAIJ;EACI,OFzCY",
+    "file": "style.css"
+}

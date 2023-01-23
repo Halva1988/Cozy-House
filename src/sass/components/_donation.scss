@@ -1,52 +1,52 @@
 .donation {
 	background-color: $color-background;
 
-		&__wrapper {
-      padding: 80px 130px 100px;
-      display: flex;
-      justify-content: space-between;
-      gap: 103px;
-		}
+	&__wrapper {
+		padding: 80px 130px 100px;
+		display: flex;
+		justify-content: space-between;
+		gap: 103px;
+	}
 
-		&__content {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      width: 349px;
-		}
+	&__content {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		width: 349px;
+	}
 
-		&__title {
-      width: 90%;
-		}
+	&__title {
+		width: 90%;
+	}
 
-		&__subtitle {
-      font-size: 15px;
-      line-height: 17px;
-      letter-spacing: 0.06em;
-      color: $color-dark-i;
-		}
+	&__subtitle {
+		font-size: 15px;
+		line-height: 17px;
+		letter-spacing: 0.06em;
+		color: $color-dark-i;
+	}
 
-		&__credit-card {
-      display: flex;
-      justify-content: space-between;
-      padding: 10px 15px;
-      background-color: $color-primary;
-      border-radius: 9px;
-		}
+	&__credit-card {
+		display: flex;
+		justify-content: space-between;
+		padding: 10px 15px;
+		background-color: $color-primary;
+		border-radius: 9px;
+	}
 
-		&__number-card {
-      font-size: 20px;
-      line-height: 23px;
-      letter-spacing: 0.06em;
-      color: $color-dark-i;
-		}
+	&__number-card {
+		font-size: 20px;
+		line-height: 23px;
+		letter-spacing: 0.06em;
+		color: $color-dark-i;
+	}
 
-		&__desc {
-      font-size: 12px;
-      font-style: italic;
-      line-height: 18px;
-      letter-spacing: 0px;
-      color: $color-dark-m;
-      width: 105%;
-		}
+	&__desc {
+		font-size: 12px;
+		font-style: italic;
+		line-height: 18px;
+		letter-spacing: 0px;
+		color: $color-dark-m;
+		width: 105%;
+	}
 }
