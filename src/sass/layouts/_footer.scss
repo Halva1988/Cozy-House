@@ -1,0 +1,44 @@
+.footer {
+	background: url("../../assets/img/bg/footer-gradient-background.png"),
+		radial-gradient(110.67% 538.64% at 5.73% 50%, #513d2f 0%, #1a1a1c 100%),
+		#211f20;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	&__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 40px 0px;
+	}
+
+	&__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 16px 150px 60px 0px;
+	}
+
+  &__title{
+    font-size: 35px;
+    line-height: 45px;
+    letter-spacing: 0.06em;
+    color: $color-light-xl;
+  }
+
+  &__string {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    align-items: center;
+  }
+
+	&__boston-link {
+    text-align: right;
+	}
+}
+
+.footer a {
+    color: $color-primary;
+}

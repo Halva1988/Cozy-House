@@ -136,6 +136,44 @@ ul {
   background: #F1CDB3;
 }
 
+.footer {
+  background: url("../../assets/img/bg/footer-gradient-background.png"), radial-gradient(110.67% 538.64% at 5.73% 50%, #513d2f 0%, #1a1a1c 100%), #211f20;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 40px 0px;
+}
+.footer__block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 16px 150px 60px 0px;
+}
+.footer__title {
+  font-size: 35px;
+  line-height: 45px;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+}
+.footer__string {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  align-items: center;
+}
+.footer__boston-link {
+  text-align: right;
+}
+
+.footer a {
+  color: #F1CDB3;
+}
+
 .start-screen {
   padding: 60px 40px 0;
   background: url("../../assets/img/bg/start-screen-gradient-background.png"), radial-gradient(100% 215.42% at 0% 0%, #5b483a 0%, #262425 100%), #211f20;
