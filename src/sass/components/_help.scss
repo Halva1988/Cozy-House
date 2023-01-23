@@ -1,0 +1,43 @@
+.help {
+	background-color: $color-light-xl;
+
+	&__wrapper {
+		padding: 80px 0px 100px;
+	}
+
+	&__title {
+		width: 310px;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	&__ul {
+		padding: 60px 87px 0px;
+		margin: 0 auto;
+		min-width: 1200px;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		column-gap: 120px;
+		row-gap: 55px;
+	}
+
+	&__card {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		height: 113px;
+	}
+
+	&__img {
+		margin: 0 auto;
+	}
+
+	&__desc {
+		font-size: 20px;
+		line-height: 23px;
+		letter-spacing: 0.06em;
+		text-align: center;
+		color: $color-dark-i;
+	}
+}

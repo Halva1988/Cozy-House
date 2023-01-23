@@ -17,8 +17,15 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-h2, h3, h4 {
+h2, h3, h4, h5 {
 	@extend %font-family-Georgia;
+}
+
+h3 {
+	color: $color-dark-i;
+	font-size: 35px;
+	line-height: 45px;
+	letter-spacing: 0.06em;
 }
 
 p {
