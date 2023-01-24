@@ -35,8 +35,12 @@
 		@extend %font-family-Arial;
 	}
 
+	&__button {
+		color: $color-dark-3xl;
+	}
+
 	&__puppy {
-		display: flex;
-		align-items: flex-end;
+		height: 728px;
+		width: 698px;
 	}
 }

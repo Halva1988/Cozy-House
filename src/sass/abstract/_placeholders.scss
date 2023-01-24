@@ -1,11 +1,21 @@
+@font-face {
+  font-family: Georgia;
+  src: url(../../assets/fonts/Georgia/georgia-regular.ttf);
+}
+
+@font-face {
+  font-family: Arial;
+  src: url(../../assets/fonts/Arial/arial-regular.ttf);
+}
+
 %font-family-Georgia {
-	font-family: "Georgia";
+	font-family: Georgia;
 	font-style: normal;
 	font-weight: 400;
 }
 
 %font-family-Arial {
-	font-family: "Arial";
+	font-family: Arial;
 	font-style: normal;
 	font-weight: 400;
 }

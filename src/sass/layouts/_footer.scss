@@ -4,11 +4,11 @@
 		#211f20;
 	background-size: cover;
 	background-repeat: no-repeat;
+	padding: 40px 0px 0px;
 
 	&__wrapper {
 		display: flex;
 		justify-content: space-between;
-		padding: 40px 0px 0px;
 		gap: 160px;
 	}
 
@@ -16,7 +16,7 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
-		width: 278px;
+		width: 279px;
 		padding: 16px 0px 60px;
 	}
 
@@ -48,9 +48,14 @@
 		text-align: right;
 	}
 
-  &__london-link {
-    padding-right: 12px;
-  }
+	&__london-link {
+		padding-right: 12px;
+	}
+
+	&__puppy {
+		height: 310px;
+		width: 300px;
+	}
 }
 
 .footer a {
