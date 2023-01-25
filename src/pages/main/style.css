@@ -103,10 +103,19 @@ img {
   margin: 0 auto;
   padding: 0px 40px;
 }
+@media (max-width: 768px) {
+  .wrapper {
+    max-width: 768px;
+    padding: 0px 30px;
+  }
+}
 
-.header {
+.header__wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  padding: 0px 40px;
 }
 .header__logo {
   display: flex;
@@ -152,17 +161,72 @@ img {
   height: 3px;
   background: #F1CDB3;
 }
+@media (max-width: 768px) {
+  .header__wrapper {
+    max-width: 768px;
+    padding: 0px 30px;
+  }
+  .header__logo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .header__title {
+    font-size: 32px;
+    line-height: 35px;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+  }
+  .header__subtitle {
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+    color: #FDDCC4;
+  }
+  .header__navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+  }
+  .header__link {
+    position: relative;
+    color: #CDCDCD;
+    font-size: 15px;
+    line-height: 24px;
+  }
+  .header__link:hover {
+    color: #FAFAFA;
+  }
+  .header__link_active {
+    color: #FAFAFA;
+  }
+  .header__link_active::after {
+    position: absolute;
+    content: "";
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: #F1CDB3;
+  }
+}
 
 .footer {
   background: url("../../assets/img/bg/footer-gradient-background.png"), radial-gradient(110.67% 538.64% at 5.73% 50%, #513d2f 0%, #1a1a1c 100%), #211f20;
   background-size: cover;
   background-repeat: no-repeat;
+  padding: 40px 0px 0px;
 }
 .footer__wrapper {
   display: flex;
   justify-content: space-between;
-  padding: 40px 0px 0px;
   gap: 160px;
+}
+.footer__big-block {
+  display: flex;
+  justify-content: space-between;
+  width: 740px;
 }
 .footer__block {
   display: flex;
@@ -201,9 +265,22 @@ img {
   height: 310px;
   width: 300px;
 }
-
 .footer a {
   color: #F1CDB3;
+}
+@media (max-width: 768px) {
+  .footer__wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+  }
+  .footer__big-block {
+    padding: 0px 34px;
+    width: 708px;
+  }
+  .footer__block {
+    gap: 40px;
+  }
 }
 
 .start-screen {
@@ -243,6 +320,35 @@ img {
   height: 728px;
   width: 698px;
 }
+@media (max-width: 768px) {
+  .start-screen {
+    padding: 30px 0 0;
+  }
+  .start-screen__content {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 70px 0;
+    height: auto;
+  }
+  .start-screen__description {
+    margin: 0 54px 100px;
+    height: 322px;
+    width: 460px;
+  }
+  .start-screen__button {
+    margin: 0 auto;
+    display: block;
+  }
+  .start-screen__puppy {
+    padding-left: 54px;
+    height: 593px;
+    width: 569px;
+  }
+  .start-screen img {
+    height: 593px;
+    width: 569px;
+  }
+}
 
 .about {
   background-color: #FFFFFF;
@@ -271,6 +377,20 @@ img {
 }
 .about__paragraph1 {
   margin-bottom: 25px;
+}
+@media (max-width: 768px) {
+  .about__wrapper {
+    flex-direction: column;
+    padding: 80px 65px 100px;
+    align-items: center;
+  }
+  .about__content {
+    margin-bottom: 80px;
+  }
+  .about__img {
+    order: 2;
+    margin-right: 0;
+  }
 }
 
 .pets {
@@ -315,6 +435,7 @@ img {
 .pets__primary-button {
   display: block;
   margin: 60px auto;
+  margin-bottom: 0;
   height: 52px;
   width: 261px;
   padding: 15px 40px 15px 40px;
@@ -351,6 +472,15 @@ img {
   color: transparent;
 }
 
+@media (max-width: 768px) {
+  .swiper {
+    width: 616px;
+  }
+  .swiper-wrapper {
+    gap: 40px;
+    padding: 0px 12px;
+  }
+}
 .help {
   background-color: #FFFFFF;
 }
@@ -386,6 +516,17 @@ img {
   letter-spacing: 0.06em;
   text-align: center;
   color: #545454;
+}
+@media (max-width: 768px) {
+  .help__ul {
+    padding: 60px 40px 0px;
+    justify-content: space-between;
+    column-gap: 60px;
+  }
+  .help__card {
+    height: 113px;
+    width: 170px;
+  }
 }
 
 .donation {
@@ -436,6 +577,20 @@ img {
   letter-spacing: 0px;
   color: #B2B2B2;
   width: 105%;
+}
+@media (max-width: 768px) {
+  .donation__wrapper {
+    padding: 80px 100px 100px;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+  }
+  .donation__content {
+    gap: 20px;
+  }
+  .donation__dog {
+    order: 2;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

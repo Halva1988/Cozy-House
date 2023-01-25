@@ -31,4 +31,21 @@
 	&__paragraph1 {
 		margin-bottom: 25px;
 	}
+
+	@media (max-width: $tablet-width) {
+		&__wrapper {
+			flex-direction: column;
+			padding: 80px 65px 100px;
+			align-items: center;
+		}
+
+		&__content {
+			margin-bottom: 80px;
+		}
+
+		&__img {
+			order: 2;
+			margin-right: 0;
+		}
+	}
 }

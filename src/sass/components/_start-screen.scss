@@ -43,4 +43,37 @@
 		height: 728px;
 		width: 698px;
 	}
+
+	@media (max-width: $tablet-width) {
+		padding: 30px 0 0;
+
+		&__content {
+			display: flex;
+			flex-direction: column;
+			padding: 60px 70px 0;
+			height: auto;
+		}
+
+		&__description {
+			margin: 0 54px 100px;
+			height: 322px;
+			width: 460px;
+		}
+
+		&__button {
+			margin: 0 auto;
+			display: block;
+		}
+
+		&__puppy {
+			padding-left: 54px;
+			height: 593px;
+			width: 569px;
+		}
+
+		img {
+			height: 593px;
+			width: 569px;
+		}
+	}
 }

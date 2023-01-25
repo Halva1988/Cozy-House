@@ -14,30 +14,28 @@
 
 <body>
   <section class="start-screen">
-    <div class="wrapper">
-      <header class="header">
-        <div class="header__logo">
-          <div class="header__title">Cozy House</div>
-          <div class="header__subtitle">Shelter for pets in Boston</div>
-        </div>
-        <ul class="header__navigation">
-          <li><a href="" class="header__link header__link_active">About the shelter</a></li>
-          <li><a href="../pets/our-pets.html" class="header__link">Our pets</a></li>
-          <li><a href="#help" class="header__link">Help the shelter</a></li>
-          <li><a href="#contacts" class="header__link">Contacts</a></li>
-        </ul>
-      </header>
-      <div class="start-screen__content">
-        <div class="start-screen__description">
-          <h2 class="start-screen__title-start">Not only people need a house</h2>
-          <p class="start-screen__paragraph-start">We offer to give a chance to a little and nice puppy with an
-            extremely wide and open heart. He or she will love you more
-            than anybody else in the world, you will see!</p>
-          <a href="#pets"><button class="start-screen__button button">Make a friend</button></a>
-        </div>
-        <div class="start-screen__puppy">
-          <img src="../../assets/img/start-screen-puppy.png" alt="start-screen-puppy">
-        </div>
+    <header class="header__wrapper">
+      <div class="header__logo">
+        <div class="header__title">Cozy House</div>
+        <div class="header__subtitle">Shelter for pets in Boston</div>
+      </div>
+      <ul class="header__navigation">
+        <li><a href="" class="header__link header__link_active">About the shelter</a></li>
+        <li><a href="../pets/our-pets.html" class="header__link">Our pets</a></li>
+        <li><a href="#help" class="header__link">Help the shelter</a></li>
+        <li><a href="#contacts" class="header__link">Contacts</a></li>
+      </ul>
+    </header>
+    <div class="start-screen__content wrapper">
+      <div class="start-screen__description">
+        <h2 class="start-screen__title-start">Not only people need a house</h2>
+        <p class="start-screen__paragraph-start">We offer to give a chance to a little and nice puppy with an
+          extremely wide and open heart. He or she will love you more
+          than anybody else in the world, you will see!</p>
+        <a href="#pets"><button class="start-screen__button button">Make a friend</button></a>
+      </div>
+      <div class="start-screen__puppy">
+        <img src="../../assets/img/start-screen-puppy.png" alt="start-screen-puppy">
       </div>
     </div>
   </section>
@@ -193,28 +191,30 @@
   </section>
   <footer class="footer" id="contacts">
     <div class="footer__wrapper wrapper">
-      <div class="footer__contacts footer__block">
-        <h3 class="footer__title">For questions and suggestions</h3>
-        <div class="footer__mail footer__string">
-          <img src="../../assets/icons/mail.png" alt="mail" class="footer__mail-img">
-          <a href="mailto:email@shelter.com" class="footer__mail-addres">email@shelter.com</a>
+      <div class="footer__big-block">
+        <div class="footer__contacts footer__block">
+          <h3 class="footer__title">For questions and suggestions</h3>
+          <div class="footer__mail footer__string">
+            <img src="../../assets/icons/mail.png" alt="mail" class="footer__mail-img">
+            <a href="mailto:email@shelter.com" class="footer__mail-addres">email@shelter.com</a>
+          </div>
+          <div class="footer__phone footer__string">
+            <img src="../../assets/icons/phone.png" alt="phone" class="footer__phone-img">
+            <a href="tel:+136745677554" class="footer__phone-number">+13 674 567 75 54</a>
+          </div>
         </div>
-        <div class="footer__phone footer__string">
-          <img src="../../assets/icons/phone.png" alt="phone" class="footer__phone-img">
-          <a href="tel:+136745677554" class="footer__phone-number">+13 674 567 75 54</a>
-        </div>
-      </div>
-      <div class="footer__locations footer__block">
-        <h3 class="footer__title">We are waiting for your visit</h3>
-        <div class="footer__boston footer__string">
-          <img src="../../assets/icons/pin.png" alt="pin" class="footer__location-img">
-          <a href="https://goo.gl/maps/cs1ZZ46b7ZHo1YMEA" target="_blank" rel="noopener noreferrer"
-            class="footer__boston-link">1 Central Street, Boston (entrance from the store)</a>
-        </div>
-        <div class="footer__london footer__string">
-          <img src="../../assets/icons/pin.png" alt="pin" class="footer__location-img">
-          <a href="https://goo.gl/maps/WrQTgQHABVVw5vAn8" target="_blank" rel="noopener noreferrer"
-            class="footer__london-link">18 South Park, London</a>
+        <div class="footer__locations footer__block">
+          <h3 class="footer__title">We are waiting for your visit</h3>
+          <div class="footer__boston footer__string">
+            <img src="../../assets/icons/pin.png" alt="pin" class="footer__location-img">
+            <a href="https://goo.gl/maps/cs1ZZ46b7ZHo1YMEA" target="_blank" rel="noopener noreferrer"
+              class="footer__boston-link">1 Central Street, Boston (entrance from the store)</a>
+          </div>
+          <div class="footer__london footer__string">
+            <img src="../../assets/icons/pin.png" alt="pin" class="footer__location-img">
+            <a href="https://goo.gl/maps/WrQTgQHABVVw5vAn8" target="_blank" rel="noopener noreferrer"
+              class="footer__london-link">18 South Park, London</a>
+          </div>
         </div>
       </div>
       <img src="../../assets/img/footer-puppy.png" alt="footer puppy" class="footer__puppy">

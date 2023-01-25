@@ -48,6 +48,7 @@
 	&__primary-button {
 		display: block;
 		margin: 60px auto;
+		margin-bottom: 0;
 		height: 52px;
 		width: 261px;
 		padding: 15px 40px 15px 40px;
@@ -83,4 +84,15 @@
 .swiper-button-prev,
 .swiper-button-next {
 	color: transparent;
+}
+
+@media (max-width: $tablet-width) {
+	.swiper {
+		width: 616px;
+	}
+
+	.swiper-wrapper {
+		gap: 40px;
+		padding: 0px 12px;
+	}
 }

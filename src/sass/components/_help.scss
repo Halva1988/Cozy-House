@@ -39,4 +39,17 @@
 		text-align: center;
 		color: $color-dark-i;
 	}
+
+	@media (max-width: $tablet-width) {
+		&__ul {
+			padding: 60px 40px 0px;
+			justify-content: space-between;
+			column-gap: 60px;
+		}
+
+		&__card {
+			height: 113px;
+			width: 170px;
+		}
+	}
 }
