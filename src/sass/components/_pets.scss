@@ -57,6 +57,24 @@
 		letter-spacing: 0.06em;
 		color: $color-dark-3xl;
 	}
+
+	@media (min-width: $mobile-width) and (max-width: 767px) {
+		&__wrapper {
+			padding: 42px 0;
+			position: relative;
+		}
+
+		&__title {
+			font-size: 25px;
+			line-height: 32px;
+			letter-spacing: 0.06em;
+			text-align: center;
+		}
+
+		&__primary-button {
+			margin: 92px auto 0;
+		}
+	}
 }
 
 .swiper {
@@ -86,13 +104,32 @@
 	color: transparent;
 }
 
-@media (max-width: $tablet-width) {
+@media (min-width: $tablet-width) and (max-width: 1279px) {
 	.swiper {
 		width: 616px;
 	}
 
 	.swiper-wrapper {
 		gap: 40px;
-		padding: 0px 12px;
+		padding: 0 12px;
+	}
+}
+
+@media (min-width: $mobile-width) and (max-width: 767px) {
+	.swiper {
+		width: 305px;
+	}
+
+	.swiper-wrapper {
+		gap: 35px;
+		padding: 0 19px;
+	}
+
+	.swiper-button-prev {
+		left: 68px;
+	}
+
+	.swiper-button-next {
+		right: 68px;
 	}
 }
