@@ -110,13 +110,13 @@ img {
 }
 @media (min-width: 768px) and (max-width: 1279px) {
   .wrapper {
-    max-width: 768px;
+    max-width: 1279px;
     padding: 0 30px;
   }
 }
 @media (min-width: 320px) and (max-width: 767px) {
   .wrapper {
-    max-width: 320px;
+    max-width: 767px;
     padding: 0 10px;
   }
 }
@@ -174,7 +174,7 @@ img {
 }
 @media (min-width: 768px) and (max-width: 1279px) {
   .header__wrapper {
-    max-width: 768px;
+    max-width: 1279px;
     padding: 0px 30px;
   }
   .header__logo {
@@ -224,7 +224,7 @@ img {
 }
 @media (min-width: 320px) and (max-width: 767px) {
   .header__wrapper {
-    max-width: 768px;
+    max-width: 767px;
     padding: 0px 10px;
   }
   .header__navigation {
@@ -361,6 +361,9 @@ img {
   color: #F1CDB3;
 }
 @media (min-width: 768px) and (max-width: 1279px) {
+  .footer {
+    padding: 0;
+  }
   .footer__wrapper {
     flex-direction: column;
     align-items: center;
@@ -376,9 +379,10 @@ img {
 }
 @media (min-width: 320px) and (max-width: 767px) {
   .footer {
-    padding: 0 10px;
+    padding-top: 30px;
   }
   .footer__wrapper {
+    width: 300px;
     flex-direction: column;
     padding: 30px 0 0;
     gap: 30px;
@@ -447,6 +451,7 @@ img {
   }
   .start-screen__content {
     flex-direction: column;
+    align-items: center;
     padding: 60px 70px 0;
     height: auto;
   }
@@ -470,6 +475,9 @@ img {
   }
 }
 @media (min-width: 320px) and (max-width: 767px) {
+  .start-screen {
+    padding: 30px 0 0;
+  }
   .start-screen__content {
     flex-direction: column;
     align-items: center;
@@ -631,6 +639,7 @@ img {
 }
 @media (min-width: 320px) and (max-width: 767px) {
   .pets__wrapper {
+    width: 300px;
     padding: 42px 0;
     position: relative;
   }
@@ -690,10 +699,10 @@ img {
     padding: 0 19px;
   }
   .swiper-button-prev {
-    left: 68px;
+    left: 40px;
   }
   .swiper-button-next {
-    right: 68px;
+    right: 40px;
   }
 }
 .help {
@@ -734,9 +743,10 @@ img {
 }
 @media (min-width: 768px) and (max-width: 1279px) {
   .help__ul {
-    padding: 60px 40px 0;
+    padding: 60px 0 0;
     justify-content: space-between;
     column-gap: 60px;
+    width: 630px;
   }
   .help__card {
     height: 113px;
@@ -755,6 +765,7 @@ img {
     padding: 0 35px;
   }
   .help__ul {
+    width: 290px;
     justify-content: space-between;
     padding: 42px 0;
     gap: 30px;

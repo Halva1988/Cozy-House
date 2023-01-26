@@ -42,9 +42,10 @@
 
 	@media (min-width: $tablet-width) and (max-width: 1279px) {
 		&__ul {
-			padding: 60px 40px 0;
+			padding: 60px 0 0;
 			justify-content: space-between;
 			column-gap: 60px;
+			width: 630px;
 		}
 
 		&__card {
@@ -67,6 +68,7 @@
 		}
 
 		&__ul {
+			width: 290px;
 			justify-content: space-between;
 			padding: 42px 0;
 			gap: 30px;

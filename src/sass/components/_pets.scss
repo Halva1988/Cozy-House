@@ -59,7 +59,9 @@
 	}
 
 	@media (min-width: $mobile-width) and (max-width: 767px) {
+		
 		&__wrapper {
+			width: 300px;
 			padding: 42px 0;
 			position: relative;
 		}
@@ -126,10 +128,10 @@
 	}
 
 	.swiper-button-prev {
-		left: 68px;
+		left: 40px;
 	}
 
 	.swiper-button-next {
-		right: 68px;
+		right: 40px;
 	}
 }

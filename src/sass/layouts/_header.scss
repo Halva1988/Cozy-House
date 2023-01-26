@@ -64,7 +64,7 @@
 
 	@media (min-width: $tablet-width) and (max-width: 1279px) {
 		&__wrapper {
-			max-width: $tablet-width;
+			max-width: 1279px;
 			padding: 0px 30px;
 		}
 
@@ -126,7 +126,7 @@
 
 	@media (min-width: $mobile-width) and (max-width: 767px) {
 		&__wrapper {
-			max-width: $tablet-width;
+			max-width: 767px;
 			padding: 0px 10px;
 		}
 

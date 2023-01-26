@@ -8,6 +8,7 @@
 		flex-wrap: wrap;
 		gap: 40px;
 		padding: 60px 0px;
+		justify-content: center;
 	}
 
 	&__nav {
@@ -38,8 +39,40 @@
 			}
 		}
 	}
+
+	@media (min-width: $tablet-width) and (max-width: 1279px) {
+		padding: 0;
+
+		&__wrapper {
+			padding: 180px 64px 70px;
+		}
+
+		&__cards {
+			width: 580px;
+			margin: 0 auto;
+			padding: 30px 0 40px;
+		}
+	}
+
+	@media (min-width: $mobile-width) and (max-width: 767px) {
+		padding: 0;
+
+		&__wrapper {
+			padding: 162px 10px 42px;
+		}
+
+		&__cards {
+			margin: 0 auto;
+			margin-bottom: 42px;
+			padding: 42px 0px;
+			height: 1395px;
+			width: 270px;
+			gap: 30px;
+			overflow: hidden;
+		}
+	}
 }
 
 .page-number {
-  background-color: $color-primary;
+	background-color: $color-primary;
 }
