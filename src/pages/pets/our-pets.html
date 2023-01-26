@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
   <link rel="stylesheet" href="style.css">
   <title>Our pets</title>
 </head>
@@ -24,6 +25,27 @@
       </ul>
     </div>
   </header>
+  <div class="modal">
+    <div class="modal__wrapper">
+      <div class="modal__block">
+        <button class="modal__close-button circular-button"></button>
+        <div class="modal__card">
+          <img src="" alt="pet" class="modal__img">
+          <div class="modal__content">
+            <h3 class="modal__pet-name"></h3>
+            <h4 class="modal__pet-breed"></h4>
+            <p class="modal__pet-description"></p>
+            <ul class="modal__options">
+              <li class="modal__option"><span>Age: </span>2 months</li>
+              <li class="modal__option"><span>Inoculations: </span>none</li>
+              <li class="modal__option"><span>Diseases: </span>none</li>
+              <li class="modal__option"><span>Parasites: </span>none</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <section class="our-pets">
     <div class="our-pets__wrapper wrapper">
       <h3 class="our-pets__title pets__title">Our friends who <br>
@@ -32,50 +54,54 @@
         <div class="pets__card">
           <img src="../../assets/img/pets-katrine.png" alt="katrine" class="pets__img">
           <h4 class="pets__name">Katrine</h4>
-          <button class="pets__button button">Learn more</button>
+          <button class="pets__button button learn">Learn more</button>
         </div>
         <div class="pets__card">
           <img src="../../assets/img/pets-jennifer.png" alt="Jennifer" class="pets__img">
           <h4 class="pets__name">Jennifer</h4>
-          <button class="pets__button button">Learn more</button>
+          <button class="pets__button button learn">Learn more</button>
         </div>
         <div class="pets__card">
           <img src="../../assets/img/pets-woody.svg" alt="Woody" class="pets__img">
           <h4 class="pets__name">Woody</h4>
-          <button class="pets__button button">Learn more</button>
+          <button class="pets__button button learn">Learn more</button>
         </div>
         <div class="pets__card">
           <img src="../../assets/img/pets-sophia.png" alt="Sophia" class="pets__img">
           <h4 class="pets__name">Sophia</h4>
-          <button class="pets__button button">Learn more</button>
+          <button class="pets__button button learn">Learn more</button>
         </div>
         <div class="pets__card">
           <img src="../../assets/img/pets-timmy.png" alt="Timmy" class="pets__img">
           <h4 class="pets__name">Timmy</h4>
-          <button class="pets__button button">Learn more</button>
+          <button class="pets__button button learn">Learn more</button>
         </div>
         <div class="pets__card">
           <img src="../../assets/img/pets-charly.png" alt="Charly" class="pets__img">
           <h4 class="pets__name">Charly</h4>
-          <button class="pets__button button">Learn more</button>
+          <button class="pets__button button learn">Learn more</button>
         </div>
         <div class="pets__card">
           <img src="../../assets/img/pets-scarlet.png" alt="Scarlet" class="pets__img">
           <h4 class="pets__name">Scarlet</h4>
-          <button class="pets__button button">Learn more</button>
+          <button class="pets__button button learn">Learn more</button>
         </div>
         <div class="pets__card">
           <img src="../../assets/img/pets-freddie.png" alt="Freddie" class="pets__img">
           <h4 class="pets__name">Freddie</h4>
-          <button class="pets__button button">Learn more</button>
+          <button class="pets__button button learn">Learn more</button>
         </div>
       </div>
       <div class="our-pets__nav">
-        <button class="our-pets__button circular-button double-prev" disabled><img src="../../assets/icons/double-prev.png" alt="double prev"></button>
-        <button class="our-pets__button circular-button prev" disabled><img src="../../assets/icons/prev.png" alt="prev"></button>
+        <button class="our-pets__button circular-button double-prev" disabled><img
+            src="../../assets/icons/double-prev.png" alt="double prev"></button>
+        <button class="our-pets__button circular-button prev" disabled><img src="../../assets/icons/prev.png"
+            alt="prev"></button>
         <button class="our-pets__button circular-button page-number">1</button>
-        <button class="our-pets__button circular-button next"><img src="../../assets/icons/next.png" alt="next"></button>
-        <button class="our-pets__button circular-button double-next"><img src="../../assets/icons/double-next.png" alt="double next"></button>
+        <button class="our-pets__button circular-button next"><img src="../../assets/icons/next.png"
+            alt="next"></button>
+        <button class="our-pets__button circular-button double-next"><img src="../../assets/icons/double-next.png"
+            alt="double next"></button>
       </div>
     </div>
   </section>
@@ -110,6 +136,8 @@
       <img src="../../assets/img/footer-puppy.png" alt="footer puppy" class="footer__puppy">
     </div>
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="../../js/script.js"></script>
 </body>
 
 </html>

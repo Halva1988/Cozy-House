@@ -292,6 +292,135 @@ img {
   }
 }
 
+.modal {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9999999;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(41, 41, 41, 0.6);
+}
+.modal__wrapper {
+  padding: 136px 0 189px 0;
+}
+.modal__block {
+  position: relative;
+  margin: auto auto;
+  height: 552px;
+  width: 952px;
+}
+.modal__close-button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: transparent;
+  background-image: url("../../assets/icons/close.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.modal__card {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 500px;
+  width: 900px;
+  border-radius: 9px;
+  background-color: #FAFAFA;
+}
+.modal__img {
+  width: 50%;
+  height: 100%;
+  border-radius: 9px;
+}
+.modal__content {
+  padding: 50px 20px 88px 29px;
+}
+.modal__pet-name {
+  margin-bottom: 10px;
+}
+.modal__pet-breed {
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  margin-bottom: 40px;
+}
+.modal__pet-description {
+  font-size: 15px;
+  line-height: 17px;
+  letter-spacing: 0.06em;
+  margin-bottom: 40px;
+}
+.modal__option {
+  font-size: 15px;
+  line-height: 17px;
+  letter-spacing: 0.06em;
+  margin-bottom: 11px;
+}
+.modal__option span {
+  font-weight: bold;
+}
+@media (min-width: 768px) and (max-width: 1279px) {
+  .modal__block {
+    height: 402px;
+    width: 682px;
+  }
+  .modal__card {
+    height: 350px;
+    width: 630px;
+  }
+  .modal__content {
+    padding: 10px 10px 36px;
+  }
+  .modal__pet-breed {
+    margin-bottom: 20px;
+  }
+  .modal__pet-description {
+    font-size: 13px;
+    line-height: 14px;
+    letter-spacing: 0.06em;
+  }
+  .modal__option {
+    margin-bottom: 5px;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .modal__block {
+    height: 400px;
+    width: 270px;
+    text-align: center;
+  }
+  .modal__card {
+    height: 341px;
+    width: 252px;
+  }
+  .modal__img {
+    display: none;
+  }
+  .modal__content {
+    padding: 10px;
+  }
+  .modal__pet-breed {
+    margin-bottom: 15px;
+  }
+  .modal__pet-description {
+    font-size: 13px;
+    line-height: 14px;
+    letter-spacing: 0.06em;
+    text-align: justify;
+    margin-bottom: 20px;
+  }
+  .modal__options {
+    text-align: left;
+  }
+  .modal__option {
+    line-height: 12px;
+  }
+}
+
 .our-pets {
   padding-top: 200px;
   padding-bottom: 100px;

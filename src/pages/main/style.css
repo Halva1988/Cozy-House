@@ -243,7 +243,7 @@ img {
   background-color: rgba(41, 41, 41, 0.6);
 }
 .modal__wrapper {
-  padding: 136px 138px 189px 190px;
+  padding: 136px 0 189px 0;
 }
 .modal__block {
   position: relative;
@@ -302,6 +302,63 @@ img {
 }
 .modal__option span {
   font-weight: bold;
+}
+@media (min-width: 768px) and (max-width: 1279px) {
+  .modal__block {
+    height: 402px;
+    width: 682px;
+  }
+  .modal__card {
+    height: 350px;
+    width: 630px;
+  }
+  .modal__content {
+    padding: 10px 10px 36px;
+  }
+  .modal__pet-breed {
+    margin-bottom: 20px;
+  }
+  .modal__pet-description {
+    font-size: 13px;
+    line-height: 14px;
+    letter-spacing: 0.06em;
+  }
+  .modal__option {
+    margin-bottom: 5px;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .modal__block {
+    height: 400px;
+    width: 270px;
+    text-align: center;
+  }
+  .modal__card {
+    height: 341px;
+    width: 252px;
+  }
+  .modal__img {
+    display: none;
+  }
+  .modal__content {
+    padding: 10px;
+  }
+  .modal__pet-breed {
+    margin-bottom: 15px;
+  }
+  .modal__pet-description {
+    font-size: 13px;
+    line-height: 14px;
+    letter-spacing: 0.06em;
+    text-align: justify;
+    margin-bottom: 20px;
+  }
+  .modal__options {
+    text-align: left;
+  }
+  .modal__option {
+    line-height: 12px;
+  }
 }
 
 .footer {
