@@ -740,6 +740,11 @@ img {
   letter-spacing: 0.06em;
   color: #292929;
 }
+@media (min-width: 768px) and (max-width: 1279px) {
+  .pets__wrapper {
+    max-width: 768px;
+  }
+}
 @media (min-width: 320px) and (max-width: 767px) {
   .pets__wrapper {
     width: 300px;
