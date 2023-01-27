@@ -43,7 +43,7 @@ learn.forEach(element => element.addEventListener('click', (e) => {
     .then(result => {
       result.map(pet => {
         if (pet.name === card.id) {
-          modal.style.display = 'block'
+          modal.style.display = 'flex'
           modal.querySelector('.modal__img').setAttribute('src', `${pet.img}`)
           modal.querySelector('.modal__pet-name').innerHTML = pet.name
           modal.querySelector('.modal__pet-breed').innerHTML = pet.breed

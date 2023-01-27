@@ -251,6 +251,8 @@ img {
 
 .modal {
   display: none;
+  align-items: center;
+  justify-content: center;
   position: fixed;
   left: 0;
   top: 0;
@@ -260,7 +262,7 @@ img {
   background-color: rgba(41, 41, 41, 0.6);
 }
 .modal__wrapper {
-  padding: 136px 0 189px 0;
+  margin: auto auto;
 }
 .modal__block {
   position: relative;

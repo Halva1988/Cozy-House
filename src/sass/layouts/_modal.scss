@@ -1,5 +1,7 @@
 .modal {
 	display: none;
+	align-items: center;
+	justify-content: center;
 	position: fixed;
 	left: 0;
 	top: 0;
@@ -9,7 +11,7 @@
 	background-color: rgba(41, 41, 41, 0.6);
 
 	&__wrapper {
-		padding: 136px 0 189px 0;
+		margin: auto auto;
 	}
 
 	&__block {
@@ -80,7 +82,6 @@
 	}
 
 	@media (min-width: $tablet-width) and (max-width: 1279px) {
-
 		&__block {
 			height: 402px;
 			width: 682px;
@@ -111,7 +112,6 @@
 	}
 
 	@media (min-width: $mobile-width) and (max-width: 767px) {
-
 		&__block {
 			height: 400px;
 			width: 270px;
