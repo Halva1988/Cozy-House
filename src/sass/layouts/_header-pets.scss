@@ -83,14 +83,13 @@
 				top: 0;
 				height: 732px;
 				width: 320px;
-				margin-top: 88px;
+				margin-top: 120px;
 				padding: 165px 0 256px;
 				background-color: $color-light-s;
 
 				display: flex;
 				flex-direction: column;
-				justify-content: flex-start;
-				gap: 25px;
+				justify-content: space-between;
 
 			}
 		}
