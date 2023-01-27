@@ -3,6 +3,7 @@
 	width: 30px;
 	display: none;
 	@extend %transition;
+	cursor: pointer;
 
 	&_pressed {
 		@extend %transition;
