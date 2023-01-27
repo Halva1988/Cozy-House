@@ -1,0 +1,31 @@
+.burger {
+	height: 22px;
+	width: 30px;
+	display: none;
+	@extend %transition;
+
+	&_pressed {
+		@extend %transition;
+		rotate: 90deg;
+	}
+
+	&__line {
+		width: 100%;
+		height: 2px;
+		background-color: $color-primary;
+
+		&_black {
+			background-color: black;
+		}
+	}
+
+	@media (min-width: $mobile-width) and (max-width: 767px) {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+
+		&_our-pets {
+			margin-right: 34px;
+		}
+	}
+}

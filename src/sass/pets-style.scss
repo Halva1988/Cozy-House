@@ -1,14 +1,15 @@
-@import "../sass/abstract/constants";
-@import "../sass/abstract/placeholders";
+@import "abstract/constants";
+@import "abstract/placeholders";
 
-@import "../sass/base/base";
-@import "../sass/base/buttons";
+@import "base/base";
+@import "base/buttons";
 
-@import "../sass/layouts/header-pets";
-@import "../sass/layouts/footer";
-@import "../sass/layouts/wrapper";
-@import "../sass/layouts/modal";
+@import "layouts/header-pets";
+@import "layouts/footer";
+@import "layouts/wrapper";
+@import "layouts/modal";
 
-@import "../sass/components/our-pets";
-@import "../sass/components/pets";
+@import "components/our-pets";
+@import "components/burger";
+@import "components/pets";
 
