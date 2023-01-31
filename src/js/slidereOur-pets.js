@@ -1,6 +1,4 @@
 const swiper = new Swiper('.swiper', {
-  
-  
 
   navigation: {
     nextEl: '.next',
@@ -12,19 +10,13 @@ const swiper = new Swiper('.swiper', {
       slidesPerView: 3,
       slidesPerColumn: 3,
       autoHeight: false,
-      spaceBetween: 30,
-      navigation: {
-        enabled: true
-      }
+      spaceBetween: 40,
     },
     768: {
-      slidesPerView: 6,
+      slidesPerView: 2,
       slidesPerColumn: 3,
       autoHeight: false,
       spaceBetween: 30,
-      navigation: {
-        enabled: true
-      }
     },
     1280: {
       slidesPerView: 8,
