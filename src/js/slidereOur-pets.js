@@ -41,8 +41,8 @@ prev.addEventListener('click', () => {
 swiper.on("slide", function(sliderValue) {
 
   if (sliderValue > numberSlide) {
-    numberSlide.innerHTML = numberSlide + 1;
+    numberSlide.textContent = parseInt(numberSlide.textContent) + 1
   } else {
-    numberSlide.innerHTML = numberSlide - 1;
+    numberSlide.textContent = parseInt(numberSlide.textContent) - 1;
   }
 });
