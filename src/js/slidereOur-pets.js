@@ -37,3 +37,12 @@ next.addEventListener('click', () => {
 prev.addEventListener('click', () => {
   numberSlide.textContent = parseInt(numberSlide.textContent) - 1
 })
+
+slider.on("slide", function(sliderValue) {
+
+  if (sliderValue > numberSlide) {
+    numberSlide.innerHTML = numberSlide + 1;
+  } else {
+    numberSlide.innerHTML = numberSlide - 1;
+  }
+});
