@@ -4,16 +4,18 @@
 	background-color: $color-background;
 
 	&__cards {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 40px;
-		padding: 60px 0px;
-		justify-content: center;
+		height: 930px;
+		// 	display: flex;
+		// 	flex-wrap: wrap;
+		// 	gap: 40px;
+		// 	padding: 60px 0px;
+		// 	justify-content: center;
 	}
 
 	&__nav {
+		position: relative;
 		display: flex;
-		justify-content: space-between;
+		justify-content: center;
 		height: 52px;
 		width: 340px;
 		margin: 0 auto;
@@ -29,15 +31,6 @@
 		line-height: 23px;
 		letter-spacing: 0.06em;
 		color: $color-dark-3xl;
-
-		&:disabled {
-			cursor: default;
-			border: 2px solid $color-dark-s;
-
-			&:hover {
-				background-color: $color-background;
-			}
-		}
 	}
 
 	@media (min-width: $tablet-width) and (max-width: 1279px) {
@@ -49,8 +42,41 @@
 
 		&__cards {
 			width: 580px;
+			height: 1552px;
 			margin: 0 auto;
 			padding: 30px 0 40px;
+			overflow: hidden;
+		}
+
+		&__nav {
+			margin-top: 30px;
+		}
+
+		.next {
+			right: -12px;
+		}
+
+		.prev {
+			left: -12px;
+		}
+
+		.swiper {
+			width: 960px !important;
+			height: 1427px;
+			margin-top: 0px !important;
+		}
+
+		.swiper-wrapper {
+			display: flex;
+			flex-wrap: wrap;
+			padding: 0 !important;
+			gap: 30px !important;
+		}
+
+		.swiper-slide {
+			width: 270px !important;
+			height: calc((100% - 30px) / 3);
+			overflow: hidden;
 		}
 	}
 
@@ -65,18 +91,84 @@
 			margin: 0 auto;
 			margin-bottom: 42px;
 			padding: 42px 0px;
-			height: 1395px;
+			height: 1548px;
 			width: 270px;
 			gap: 30px;
 			overflow: hidden;
 		}
 
 		&__nav {
-			width: 300px;
+			width: 258px;
+		}
+
+		.swiper {
+			width: 467px !important;
+			height: 1450px;
+			margin-top: 0px !important;
+		}
+
+		.swiper-wrapper {
+			display: flex;
+			flex-direction: column;
+			flex-wrap: wrap;
+			padding: 0 !important;
+			gap: 30px !important;
+		}
+
+		.swiper-slide {
+			width: 270px !important;
+			height: calc((100% - 136px) / 3);
+			overflow: hidden;
+		}
+
+		.next {
+			right: 33px;
+		}
+
+		.prev {
+			left: 33px;
 		}
 	}
 }
 
 .page-number {
 	background-color: $color-primary;
+}
+
+.swiper {
+	width: 1280px !important;
+	height: 930px;
+}
+
+.swiper-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 !important;
+	gap: 0 !important;
+}
+
+.swiper-slide {
+	width: 270px !important;
+	height: calc((100% - 30px) / 2);
+	overflow: hidden;
+}
+
+.next,
+.prev {
+	justify-content: space-between;
+	top: 22px;
+}
+
+.next {
+	right: 30px;
+}
+
+.prev {
+	left: 30px;
+	rotate: 180deg;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+	color: transparent;
 }
