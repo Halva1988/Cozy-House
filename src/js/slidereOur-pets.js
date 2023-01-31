@@ -38,7 +38,7 @@ prev.addEventListener('click', () => {
   numberSlide.textContent = parseInt(numberSlide.textContent) - 1
 })
 
-swiper.on("slide", function(sliderValue) {
+swiper.on("slideChange", function(sliderValue) {
 
   if (sliderValue > numberSlide) {
     numberSlide.textContent = parseInt(numberSlide.textContent) + 1
