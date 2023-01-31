@@ -28,7 +28,7 @@ const swiper = new Swiper('.swiper', {
 const next = document.querySelector('.next')
 const prev = document.querySelector('.prev')
 const numberSlide = document.querySelector('.page-number')
-numberSlide.textContent = 1
+numberSlide.textContent = 0
 
 next.addEventListener('click', () => {
   numberSlide.textContent = parseInt(numberSlide.textContent) + 1
