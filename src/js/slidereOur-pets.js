@@ -25,24 +25,9 @@ const swiper = new Swiper('.swiper', {
   }
 })
 
-const next = document.querySelector('.next')
-const prev = document.querySelector('.prev')
 const numberSlide = document.querySelector('.page-number')
-numberSlide.textContent = 0
-
-next.addEventListener('click', () => {
-  numberSlide.textContent = parseInt(numberSlide.textContent) + 1
-})
-
-prev.addEventListener('click', () => {
-  numberSlide.textContent = parseInt(numberSlide.textContent) - 1
-})
+numberSlide.textContent = 1
 
 swiper.on("slideChange", function(sliderValue) {
-
-  if (sliderValue > numberSlide) {
-    numberSlide.textContent = parseInt(numberSlide.textContent) + 1
-  } else {
-    numberSlide.textContent = parseInt(numberSlide.textContent) - 1;
-  }
+  numberSlide.textContent = sliderValue.activeIndex + 1
 });
