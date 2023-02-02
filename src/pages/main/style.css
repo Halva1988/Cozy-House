@@ -358,6 +358,7 @@ img {
     display: none;
   }
   .modal__content {
+    width: 100%;
     padding: 10px;
   }
   .modal__pet-breed {
